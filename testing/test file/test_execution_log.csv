@@ -1,0 +1,17 @@
+Test ID,Test Scenario,Expected Result,Actual Result,Status
+TC-001,Application Launch,Application opens successfully,Application launched successfully,PASS
+TC-002,Project Location,Location dialog opens,Location dialog accessible,PASS
+TC-004,Basic Geometry Inputs,Geometry controls available,Geometry controls visible,PASS
+TC-005,Typical Section Details,Section parameters displayed,Parameters displayed,PASS
+TC-006,Member Properties,Member details accessible,Member properties displayed,PASS
+TC-007,Loading Options,Load options accessible,Load options visible,PASS
+TC-008,Analysis and Design Options,Design options accessible,Options visible,PASS
+TC-010,Baseline Design,Bridge model generated,3D bridge model generated,PASS
+TC-011,Output Dock,Output sections accessible,Output sections visible,PASS
+TC-014,Consecutive Design Runs,Updated design outputs,20m 22m and 24m runs successful,PASS
+TC-015,Custom Materials,Custom materials selectable,Steel and concrete customization verified,PASS
+TC-016,Input Output Dictionaries,Dictionary values match inputs,Values verified against latest inputs,PASS
+TC-017,Graphical Outputs,Structural plots render,Plots visible,PASS
+TC-018,Result Table,Result table generated,Result table generated,PASS
+TC-019,Design Report,Report saved successfully,Report workflow completed,PASS
+TC-022,Latest Run Data Integrity,Latest run replaces previous outputs,24m outputs reflected across verified views,PASS
